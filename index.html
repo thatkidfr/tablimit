@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Google</title>
+  <script>
+    window.addEventListener('beforeunload', function (e) {
+      // Custom messages are ignored by most modern browsers, but this still triggers a confirmation dialog
+      e.preventDefault(); // Some browsers require this for the prompt to be shown
+      e.returnValue = ''; // Required for the confirmation dialog to appear
+    });
+  </script>
+</head>
+<body>
+  <p>Website not loading</p>
+</body>
+</html>
