@@ -10,6 +10,9 @@ Then, open the file and you should see a page with text that says "Website not l
 
 Make sure this tab is the right most tab.
 
+MAKE SURE TO INTERACT WITH THE TAB (clicking on it) OR IT WON'T WORK
+
 Have one tabe to the left, right click it, and press open tab on right.
 
 After the message pops up, click cancel and you should have bypassed it :D
+
